@@ -1,0 +1,17 @@
+prototypal inheritance:
+- nonprimitive types have some properties/methods associated with them. 
+array.prototype.push
+string.prototype.toUpperCase()
+can do array.__proto__.__proto__see what you can do
+
+primitive types have object wrappers- js will automatically "box" values so you can access methods
+for example, 42.toString wouldn't work but const num = 42 --> num.toString wouldn
+
+JS engine: before executing the code: engine reads entire file throwing syntax error if one is found
+function def's will be saved in memory. Variable initializaions won't be run but lexically scoped variable names will be declared.
+
+
+Global obj:
+all variables/functions are parameters and methods on the global object
+browser global object to the "window"
+node.js global obj in the "global" object
